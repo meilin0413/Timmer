@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BF09941FC14C3200D85723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF09931FC14C3200D85723 /* AppDelegate.m */; };
+		04BF09971FC14C3200D85723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF09961FC14C3200D85723 /* main.m */; };
+		04BF09991FC14C3200D85723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF09981FC14C3200D85723 /* Assets.xcassets */; };
+		04BF099C1FC14C3200D85723 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BF099A1FC14C3200D85723 /* MainMenu.xib */; };
+		04BF09A51FC14CC900D85723 /* TimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF09A41FC14CC900D85723 /* TimmerView.m */; };
+		04BF09A81FC1645400D85723 /* TimmerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF09A71FC1645400D85723 /* TimmerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04BF098F1FC14C3200D85723 /* Timmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF09921FC14C3200D85723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BF09931FC14C3200D85723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BF09961FC14C3200D85723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BF09981FC14C3200D85723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BF099B1FC14C3200D85723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04BF099D1FC14C3200D85723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF09A31FC14CC900D85723 /* TimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimmerView.h; sourceTree = "<group>"; };
+		04BF09A41FC14CC900D85723 /* TimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimmerView.m; sourceTree = "<group>"; };
+		04BF09A61FC1645400D85723 /* TimmerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimmerViewController.h; sourceTree = "<group>"; };
+		04BF09A71FC1645400D85723 /* TimmerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimmerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BF098C1FC14C3200D85723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BF09861FC14C3200D85723 = {
+			isa = PBXGroup;
+			children = (
+				04BF09911FC14C3200D85723 /* Timmer */,
+				04BF09901FC14C3200D85723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BF09901FC14C3200D85723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BF098F1FC14C3200D85723 /* Timmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BF09911FC14C3200D85723 /* Timmer */ = {
+			isa = PBXGroup;
+			children = (
+				04BF09921FC14C3200D85723 /* AppDelegate.h */,
+				04BF09931FC14C3200D85723 /* AppDelegate.m */,
+				04BF09981FC14C3200D85723 /* Assets.xcassets */,
+				04BF099A1FC14C3200D85723 /* MainMenu.xib */,
+				04BF09A31FC14CC900D85723 /* TimmerView.h */,
+				04BF09A41FC14CC900D85723 /* TimmerView.m */,
+				04BF09A61FC1645400D85723 /* TimmerViewController.h */,
+				04BF09A71FC1645400D85723 /* TimmerViewController.m */,
+				04BF099D1FC14C3200D85723 /* Info.plist */,
+				04BF09951FC14C3200D85723 /* Supporting Files */,
+			);
+			path = Timmer;
+			sourceTree = "<group>";
+		};
+		04BF09951FC14C3200D85723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BF09961FC14C3200D85723 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BF098E1FC14C3200D85723 /* Timmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF09A01FC14C3200D85723 /* Build configuration list for PBXNativeTarget "Timmer" */;
+			buildPhases = (
+				04BF098B1FC14C3200D85723 /* Sources */,
+				04BF098C1FC14C3200D85723 /* Frameworks */,
+				04BF098D1FC14C3200D85723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timmer;
+			productName = Timmer;
+			productReference = 04BF098F1FC14C3200D85723 /* Timmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BF09871FC14C3200D85723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cisco;
+				TargetAttributes = {
+					04BF098E1FC14C3200D85723 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04BF098A1FC14C3200D85723 /* Build configuration list for PBXProject "Timmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BF09861FC14C3200D85723;
+			productRefGroup = 04BF09901FC14C3200D85723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BF098E1FC14C3200D85723 /* Timmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BF098D1FC14C3200D85723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF09991FC14C3200D85723 /* Assets.xcassets in Resources */,
+				04BF099C1FC14C3200D85723 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BF098B1FC14C3200D85723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF09971FC14C3200D85723 /* main.m in Sources */,
+				04BF09941FC14C3200D85723 /* AppDelegate.m in Sources */,
+				04BF09A81FC1645400D85723 /* TimmerViewController.m in Sources */,
+				04BF09A51FC14CC900D85723 /* TimmerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04BF099A1FC14C3200D85723 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF099B1FC14C3200D85723 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BF099E1FC14C3200D85723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04BF099F1FC14C3200D85723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04BF09A11FC14C3200D85723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Timmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.webex.Timmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BF09A21FC14C3200D85723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Timmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.webex.Timmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BF098A1FC14C3200D85723 /* Build configuration list for PBXProject "Timmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF099E1FC14C3200D85723 /* Debug */,
+				04BF099F1FC14C3200D85723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF09A01FC14C3200D85723 /* Build configuration list for PBXNativeTarget "Timmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF09A11FC14C3200D85723 /* Debug */,
+				04BF09A21FC14C3200D85723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BF09871FC14C3200D85723 /* Project object */;
+}
